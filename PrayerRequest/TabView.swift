@@ -31,6 +31,7 @@ enum Tabs: Int32, CaseIterable {
         }
     }
     
+    
     var previousTab: Tabs {
         switch self {
         case .Search: return .Search
